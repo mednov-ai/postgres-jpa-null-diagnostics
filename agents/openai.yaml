@@ -1,0 +1,15 @@
+interface:
+  display_name: PostgreSQL JPA Null Diagnostics
+  short_description: Diagnose PostgreSQL null and JPA query binding failures
+  default_prompt: Analyze these Spring Data JPA, JPQL, native SQL, or pgJDBC queries
+    for null-parameter and type-binding failures, reproduce uncertain cases on real
+    PostgreSQL, and propose verified fixes.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
